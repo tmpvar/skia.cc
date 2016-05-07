@@ -18,7 +18,8 @@
     'SK_HAS_GIF_LIBRARY',
     'SK_HAS_JPEG_LIBRARY',
     'SK_HAS_PNG_LIBRARY',
-    'SK_HAS_WEBP_LIBRARY',
+    # disabled as it causes a linker issue in context2d
+    # 'SK_HAS_WEBP_LIBRARY',
   ],
   'conditions' : [
     [ 'skia_is_bot', {
